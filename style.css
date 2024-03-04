@@ -51,6 +51,7 @@ nav button{
 .searchbox input{
     background-color: transparent;
     border:1px solid white;
+    border-radius: 3px;
 }
 .searchbox button{
     background-color: #e50914;
@@ -117,7 +118,9 @@ nav button{
     font-weight: 800;
 }
 .texts{
-    margin-right:5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .text1{
     text-align: left;
