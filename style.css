@@ -5,11 +5,11 @@
     font-family: "Martel Sans", sans-serif;
 }
 .main{
-    
-    height:80vh;
+    min-height:80vh;
     background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)),url('https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/94eb5ad7-10d8-4cca-bf45-ac52e0a052c0/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_small.jpg') ;
     background-position: center center;
     background-size: 100vw 80vh;
+    max-height: fit-content;
 }
 nav{
     display: flex;
@@ -275,6 +275,9 @@ select{
         display: flex;
         flex-direction: column;
     }    
+    .stranger{
+        font-size: 0.5rem;
+    }
     
 }
 @media (max-width:600px) {
