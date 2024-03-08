@@ -11,3 +11,7 @@ Nice Stuff
 3. Made all other sections excluding the footer <br>
 4. Special points: Z index only works on elements having position other than static, was able to place video in the boxes in the website <br>
 5. Add muted attribute to video to make it autoplay and seem less intrusive to browser
+### 8th March
+1. Made the footer section with grid and made it responsive.<br>
+2. Minor fixes for responsiveness.<br>
+3. Finally done!!!!!!!
